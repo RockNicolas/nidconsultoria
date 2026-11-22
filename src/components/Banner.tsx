@@ -24,7 +24,7 @@ export function Banner() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.6, delay: 0.15 + i * 0.12, ease: [0.22, 1, 0.36, 1] }}
-              className={i % 2 === 1 ? "text-xl font-medium text-ink/50 lg:text-3xl" : ""}
+              className={i % 2 === 1 ? "text-xl font-medium text-ink/65 lg:text-3xl" : ""}
             >
               {w}
             </motion.span>

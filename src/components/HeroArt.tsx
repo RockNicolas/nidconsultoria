@@ -25,7 +25,7 @@ export function HeroArt() {
             opacity: 0.9,
           }}
         >
-                    <motion.img style={{ y }} initial={{ scale: 1.06, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }} src="/img/hero-man.jpg" alt="" className="h-[112%] w-full object-cover object-[70%_top] mix-blend-multiply" />
+                    <motion.img style={{ y }} initial={{ scale: 1.06, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }} src="/img/hero-man.webp" alt="" className="h-[112%] w-full object-cover object-[70%_top] mix-blend-multiply" />
         </div>
 
         {/* chevrons dourados */}

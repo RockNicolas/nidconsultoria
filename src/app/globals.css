@@ -9,7 +9,7 @@
   --color-ink-2: #1b2029;
   --color-ink-3: #222834;
   --color-gold: #f0b323;
-  --color-gold-dark: #c8920f;
+  --color-gold-dark: #8a6208;
   --color-gold-soft: #f8dc8e;
   --color-cream: #f5f3ec;
   --animate-marquee: marquee 38s linear infinite;
@@ -65,4 +65,9 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .animate-marquee, .animate-marquee-rev, .animate-pulse-ring { animation: none !important; }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
 }

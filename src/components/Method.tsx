@@ -42,7 +42,7 @@ export function Method() {
                 </span>
                 <div>
                   <h3 className="text-sm font-bold md:mt-3">{s.t}</h3>
-                  <p className="mt-1 text-[11.5px] leading-relaxed text-ink/55">{s.d}</p>
+                  <p className="mt-1 text-[11.5px] leading-relaxed text-ink/65">{s.d}</p>
                 </div>
               </li>
             </Reveal>
@@ -55,7 +55,7 @@ export function Method() {
             <Reveal key={p.t} delay={(i % 3) * 0.06}>
               <div className="border-l-2 border-gold pl-3">
                 <h3 className="text-[13px] font-bold">{p.t}</h3>
-                <p className="mt-1 text-[11.5px] leading-relaxed text-ink/55">{p.d}</p>
+                <p className="mt-1 text-[11.5px] leading-relaxed text-ink/65">{p.d}</p>
               </div>
             </Reveal>
           ))}

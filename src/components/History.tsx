@@ -3,8 +3,8 @@ import { Reveal } from "./Reveal";
 
 const TIMELINE: { y: string; d: string; img?: string }[] = [
   { y: "2016", d: "Fundação da NID" },
-  { y: "2019", d: "APEX NID Leader 2.0", img: "/img/apex-leader.jpg" },
-  { y: "2021", d: "APEX Summit 2.0", img: "/img/apex-summit.jpg" },
+  { y: "2019", d: "APEX NID Leader 2.0", img: "/img/apex-leader.webp" },
+  { y: "2021", d: "APEX Summit 2.0", img: "/img/apex-summit.webp" },
   { y: "2026", d: "10 anos de NID" },
 ];
 
@@ -38,7 +38,7 @@ export function History() {
                   {t.y}
                   {"img" in t && t.img && <Image src={t.img} alt="" width={28} height={28} className="h-6 w-6 rounded object-cover" />}
                 </p>
-                <p className="mt-0.5 text-[10px] leading-snug text-ink/50">{t.d}</p>
+                <p className="mt-0.5 text-[10px] leading-snug text-ink/65">{t.d}</p>
               </li>
             ))}
           </ol>
@@ -46,7 +46,7 @@ export function History() {
 
         <Reveal delay={0.1}>
           <div className="rounded-3xl bg-ink-2 p-6 text-white shadow-2xl shadow-ink/20 sm:p-8">
-            <Image src="/img/daniel.jpg" alt="Daniel Alves, CEO do Grupo NID" width={378} height={324} className="h-16 w-16 rounded-full object-cover object-top ring-2 ring-gold" />
+            <Image src="/img/daniel.webp" alt="Daniel Alves, CEO do Grupo NID" width={378} height={324} className="h-16 w-16 rounded-full object-cover object-top ring-2 ring-gold" />
             <h3 className="mt-4 text-xl font-bold">Daniel Alves</h3>
             <p className="mt-0.5 font-display text-[10px] font-bold uppercase tracking-[0.14em] text-gold">CEO · Grupo NID</p>
             <ul className="mt-5 space-y-3 border-t border-white/10 pt-5">

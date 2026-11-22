@@ -9,6 +9,7 @@ const LINKS = [
   { href: "#servicos", label: "Serviços" },
   { href: "#metodo", label: "Método" },
   { href: "#atuacao", label: "Atuação" },
+  { href: "#cases", label: "Cases" },
   { href: "#clientes", label: "Clientes" },
   { href: "#contato", label: "Contato" },
 ];
@@ -74,15 +75,18 @@ export function Header() {
           </a>
         </nav>
 
+        <div className="flex items-center gap-2 lg:hidden">
+          <a href="#contato" className="rounded-md bg-gold px-3 py-2 text-[12px] font-bold text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-white">Fale conosco</a>
         <button
-          type="button"
-          className="grid h-10 w-10 place-items-center rounded-lg border border-white/10 text-white lg:hidden"
-          aria-label={open ? "Fechar menu" : "Abrir menu"}
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
-        >
-          {open ? <X size={20} /> : <Menu size={20} />}
-        </button>
+            type="button"
+            className="grid h-10 w-10 place-items-center rounded-lg border border-white/10 text-white lg:hidden"
+            aria-label={open ? "Fechar menu" : "Abrir menu"}
+            aria-expanded={open}
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? <X size={20} /> : <Menu size={20} />}
+          </button>
+          </div>
       </div>
 
       {open && (

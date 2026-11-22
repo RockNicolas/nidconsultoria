@@ -28,7 +28,7 @@ export function Services() {
             <p className="eyebrow">Serviços</p>
             <h2 className="mt-3 text-3xl font-extrabold leading-tight sm:text-4xl">Uma gestão focada em resultados.</h2>
           </div>
-          <p className="text-[13px] leading-relaxed text-ink/55 md:max-w-sm md:justify-self-end">
+          <p className="text-[13px] leading-relaxed text-ink/65 md:max-w-sm md:justify-self-end">
             Nove frentes de atuação para estruturar, implantar e acompanhar a gestão da sua empresa — do canteiro ao financeiro.
           </p>
         </Reveal>
@@ -49,14 +49,14 @@ export function Services() {
                       : "border-black/5 bg-white shadow-[0_6px_24px_-14px_rgba(20,24,31,0.15)]"
                   }`}
                 >
-                  <span className={`absolute right-5 top-5 font-display text-[10px] font-bold ${on ? "text-white" : "text-ink/30"}`}>
+                  <span className={`absolute right-5 top-5 font-display text-[10px] font-bold ${on ? "text-white" : "text-ink/65"}`}>
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <span className={`grid h-10 w-10 place-items-center rounded-lg transition-colors ${on ? "bg-gold text-ink" : "bg-ink-2 text-gold"}`}>
                     <Icon size={18} />
                   </span>
                   <h3 className="mt-5 text-[15px] font-bold leading-snug">{t}</h3>
-                  <p className={`mt-2 text-[12px] leading-relaxed ${on ? "text-white/65" : "text-ink/55"}`}>{d}</p>
+                  <p className={`mt-2 text-[12px] leading-relaxed ${on ? "text-white/65" : "text-ink/65"}`}>{d}</p>
                 </article>
               </Reveal>
             );

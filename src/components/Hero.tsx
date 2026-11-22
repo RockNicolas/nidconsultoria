@@ -67,7 +67,7 @@ export function Hero() {
                 <CountUp to={s.n} prefix={s.pre} suffix={s.post} />
                 <span className="text-white">{s.u}</span>
               </dt>
-              <dd className="mt-1 max-w-[16ch] text-[11px] leading-snug text-white/55">{s.d}</dd>
+              <dd className="mt-1 max-w-[16ch] text-[11px] leading-snug text-white/65">{s.d}</dd>
             </motion.div>
           ))}
         </dl>
